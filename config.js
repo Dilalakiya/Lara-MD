@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "GnAH0CxY#VL6AmIcLOdZ7zDmtN9o-SYqGy6gkURf97JLwGrVUlJM", //paste your session_id
+SESSION_ID: process.env.SESSION_ID || "SixliZIY#FBc1k3SvCAthTXGgVQKe6ER024srN6YkdkzEoKnWoxw", //paste your session_id
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true", 
 MODE: process.env.MODE || "public",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
